@@ -1,13 +1,13 @@
 import WebFont from "webfontloader";
 
-import PageFill from "./classes/PageFill";
-import Ripple from "./classes/Ripple";
-import Firework from "./classes/Firework";
+import PageFill from "./canvas-objects/page-fill";
+import Ripple from "./canvas-objects/ripple";
+import Firework from "./canvas-objects/firework";
 
-import {cW, cH, resizeCanvas} from "./modules/canvasConfig";
-import * as dotThingo from "./modules/dotThingo";
-import * as colorPicker from "./modules/colorPicker";
-import * as linkStyler from "./modules/linkStyler";
+import {cW, cH, resizeCanvas} from "./modules/canvas-config";
+import * as dotThingo from "./modules/dot-thingo";
+import * as colorPicker from "./modules/color-picker";
+import * as linkStyler from "./modules/link-styler";
 
 const handleClick = (e) => {
   if (e.touches) { 

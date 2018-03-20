@@ -1,5 +1,5 @@
 import anime from "animejs";
-import {cW, cH} from "./canvasConfig";
+import {cW, cH} from "./canvas-config";
 
 const el = document.getElementById("targetDot");
 const pulseEl = el.querySelector(".pulse--front");

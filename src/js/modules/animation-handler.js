@@ -1,5 +1,5 @@
 import anime from "animejs";
-import {ctx, cW, cH} from "./canvasConfig";
+import {ctx, cW, cH} from "./canvas-config";
 
 
 class AnimationHandler {

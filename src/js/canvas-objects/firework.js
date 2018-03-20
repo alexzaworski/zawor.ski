@@ -1,6 +1,6 @@
 import anime from "animejs";
-import Circle from "./Circle";
-import {animationHandler} from "../modules/animationHandler";
+import Circle from "./circle";
+import {animationHandler} from "../modules/animation-handler";
 
 export default class Firework {
   constructor(x, y, fill, size) {

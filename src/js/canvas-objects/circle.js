@@ -1,4 +1,4 @@
-import {ctx} from "../modules/canvasConfig";
+import {ctx} from "../modules/canvas-config";
 
 export default class Circle {
   constructor(opts) {

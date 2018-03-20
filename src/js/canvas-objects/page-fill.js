@@ -1,7 +1,7 @@
 import anime from "animejs";
-import Circle from "./Circle";
-import {cW, cH} from "../modules/canvasConfig";
-import {animationHandler} from "../modules/animationHandler";
+import Circle from "./circle";
+import {cW, cH} from "../modules/canvas-config";
+import {animationHandler} from "../modules/animation-handler";
 
 export default class PageFill {
   constructor(x, y, fill) {
