@@ -4,7 +4,7 @@ module.exports = {
   entry: './src/js/main.js',
   output: {
     path: path.resolve(__dirname, './docs/js'),
-      filename: 'main.js'
+      filename: 'main.js',
   },
   module: {
     rules: [
@@ -12,9 +12,9 @@ module.exports = {
         test: /\.js?$/,
         loader: 'babel-loader',
         query: {
-          presets: ['es2015']
-        }
-      }
-    ]
-  }
+          presets: ['es2015'],
+        },
+      },
+    ],
+  },
 };

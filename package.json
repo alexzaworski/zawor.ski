@@ -3,7 +3,9 @@
     "scss": "node-sass --output-style compressed -o docs/css src/scss",
     "autoprefix": "postcss docs/css/style.css --use autoprefixer --replace",
     "inline": "inliner --skip-absolute-urls src/index.html > docs/index.html",
-    "build": "webpack -p && npm run scss && npm run autoprefix && npm run inline"
+    "build": "webpack -p && yarn run scss && yarn run autoprefix && yarn run inline",
+    "lint": "eslint ./src --ext js --fix",
+    "pretty": "prettier './src/**/*.{js,scss}' --write"
   },
   "dependencies": {
     "animejs": "^2.2.0",
@@ -14,9 +16,11 @@
     "babel-core": "^6.17.0",
     "babel-loader": "^7.1.4",
     "babel-preset-es2015": "^6.16.0",
+    "eslint": "^4.19.0",
     "inliner": "^1.9.5",
     "node-sass": "^4.7.2",
     "postcss-cli": "^5.0.0",
+    "prettier": "^1.11.1",
     "webpack": "^4.1.1",
     "webpack-cli": "^2.0.12"
   }

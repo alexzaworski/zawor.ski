@@ -1,0 +1,13 @@
+{
+  "env": {
+    "browser": true
+  },
+  "extends": ["eslint:recommended"],
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "semi": ["error", "always"],
+    "comma-dangle": [1, "always-multiline"]
+  }
+}
