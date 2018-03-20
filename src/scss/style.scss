@@ -46,7 +46,7 @@ body {
 $ringSize: 200;
 $ringPercent: percentage($ringSize/100);
 
-.targetDot {
+.target-dot {
     z-index: 1;
     position: relative;
     height: 2rem;
@@ -60,6 +60,7 @@ $ringPercent: percentage($ringSize/100);
     background: none;
     cursor: pointer;
     vertical-align: bottom;
+    will-change: transform;
     .active & {
         position: fixed;
         top: 0;
@@ -78,6 +79,7 @@ $ringPercent: percentage($ringSize/100);
     border-radius: 50%;
     left: 0;
     top: 0;
+    will-change: transform;
     &--front {
         width: 100%;
         height: 100%;

@@ -1,7 +1,7 @@
 import anime from 'animejs';
 import { cW, cH } from './canvas-config';
 
-const el = document.getElementById('targetDot');
+const el = document.getElementById('target-dot');
 const pulseEl = el.querySelector('.pulse--front');
 const elW = el.offsetWidth;
 const elH = el.offsetHeight;
