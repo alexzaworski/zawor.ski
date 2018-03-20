@@ -1,11 +1,13 @@
+const path = require('path');
+
 module.exports = {
   entry: './src/js/main.js',
   output: {
-      path: './docs/js',
+    path: path.resolve(__dirname, './docs/js'),
       filename: 'main.js'
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js?$/,
         loader: 'babel-loader',
