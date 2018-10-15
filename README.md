@@ -1,1 +1,1 @@
-[![PageSpeed](https://pagespeed-badges.herokuapp.com/?url=zawor.ski)](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fzawor.ski%2F)
+[![PageSpeed](https://api.speedbadge.io/v1?url=zawor.ski)](https://github.com/alexzaworski/PageSpeed-Badges)
